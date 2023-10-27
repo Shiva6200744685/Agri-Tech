@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>design</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+          <div class="col-lg-6 py-5 px-lg-5 bg-light d-flex flex-column justify-content-center align-items-left text-left">
+            <h2 class="small-text bebas">Contact Us</h2>
+            <p class="large-text bebas">Let's talk about</p>
+            <p class="ex-large-text playfair">AgrroTech</p>
+          </div>
+          <div class="col-lg-6 py-5 px-lg-5 bg-light">
+            <h3 class="playfair">Send us a Message</h3>
+            <form action="/submit_form" method="post">
+              <div class="form-group">
+                <label for="fullname" class="playfair">Full Name</label>
+                <input type="text" id="fullname" name="fullname" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email" class="playfair">Email</label>
+                <input type="email" id="email" name="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="subject" class="playfair">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="message" class="playfair">Your message here</label>
+                <textarea id="message" name="message" rows="4" class="form-control"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary playfair">Send</button>
+            </form>
+          </div>
+        </div>
+    </section>
+      
+    <section>
+        
+    </section> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
