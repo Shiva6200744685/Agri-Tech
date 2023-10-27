@@ -5,6 +5,8 @@ body{
     padding: 0;
 }
 header {
+    position: sticky;
+    top: 0;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
@@ -13,7 +15,7 @@ header {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     background-color: green;
     /* border-radius: 9px; */
-    position: sticky;
+    
 }
 
 .logobar {
@@ -140,14 +142,16 @@ header {
 
 /* about section */
 .About{
-    font-size: 33px;
+    font-size: 38px;
     font-weight: bold;
     padding-top: 25px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .main-content {
     display: flex;
     flex-direction: row;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
   }
   
   .content1 {
@@ -155,17 +159,21 @@ header {
    
   }
   .intro{
+    margin: 25px;
+    margin-left: 45px;
     font-size: 30px;
     padding: 10px;
     text-align: justify;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 
   }
   .desp{
     font-size: 25px;
     padding: 10px;
     text-align: justify;
-    padding-left: 30px;
+    /* padding-left: 4px; */
+    margin-left: 45px;
+
 
 
   }
@@ -178,6 +186,41 @@ header {
   }
   
   .farmer img {
-    max-width: 90%;
+    max-width: 80%;
   }
-  
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #686868;
+    box-shadow: none;
+}
+label {
+    color: grey;
+}
+.small-text {
+    font-size: 24px;
+    color: grey;
+}
+.large-text {
+    font-size: 35px;
+}
+.ex-large-text {
+    font-size: 42px;
+}
+.arvo {
+    font-family: 'Arvo', serif;
+}
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+.helvetica {
+    font-family: 'Helvetica', sans-serif;
+}
+.bebas {
+    font-family: 'Bebas Neue', sans-serif;
+}
