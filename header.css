@@ -180,4 +180,39 @@ header {
   .farmer img {
     max-width: 90%;
   }
-  
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #686868;
+    box-shadow: none;
+}
+label {
+    color: grey;
+}
+.small-text {
+    font-size: 24px;
+    color: grey;
+}
+.large-text {
+    font-size: 35px;
+}
+.ex-large-text {
+    font-size: 42px;
+}
+.arvo {
+    font-family: 'Arvo', serif;
+}
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+.helvetica {
+    font-family: 'Helvetica', sans-serif;
+}
+.bebas {
+    font-family: 'Bebas Neue', sans-serif;
+}
