@@ -1,37 +1,65 @@
-
 .form-control {
     border: none;
     border-bottom: 1px solid #686868;
     box-shadow: none;
 }
+
 label {
     color: grey;
 }
+
 .small-text {
     font-size: 24px;
     color: grey;
 }
+
 .large-text {
     font-size: 35px;
 }
+
 .ex-large-text {
+
     font-size: 42px;
 }
+
 .arvo {
     font-family: 'Arvo', serif;
 }
+
 .oswald {
     font-family: 'Oswald', sans-serif;
 }
+
 .playfair {
     font-family: 'Playfair Display', serif;
 }
+
 .merriweather {
     font-family: 'Merriweather', serif;
 }
+
 .helvetica {
     font-family: 'Helvetica', sans-serif;
 }
+
 .bebas {
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.message-box {
+    background-color: rgb(187, 187, 187);
+    margin: 10px;
+    width: 50%;
+    border-radius: 1.5em;
+    padding: 20px;
+}
+
+.position-quote-1 {
+    position: relative;
+    top: -0.6rem;
+}
+
+.position-quote-2 {
+    position: relative;
+    bottom: 0.2rem;
 }
